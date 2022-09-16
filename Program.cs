@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+
 Console.WriteLine("Hello, Dream Theater!");
 
 #region Snack 1
@@ -22,6 +24,19 @@ Console.WriteLine("Hello, Dream Theater!");
 //  Console.WriteLine("Il numero maggiore é il secondo: " + secondNumber);
 //}
 
+// Alternativa 
+ Console.WriteLine("Input the first number:");
+
+//int firstNumber = Convert.ToInt32(Console.ReadLine());
+
+
+//Console.WriteLine("Input the second number:");
+
+//int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//int maggiore = firstNumber > secondNumber ? firstNumber : secondNumber;
+
+//Console.WriteLine("Il numero maggiore é: " + maggiore);
 #endregion
 
 //Console.WriteLine();
@@ -54,11 +69,11 @@ Console.WriteLine("Hello, Dream Theater!");
 
 //int sum = 0;
 
-//for(int i = 0; i < 10; i++)
+//for (int i = 0; i < 10; i++)
 //{
-//  Console.WriteLine("Inserisci un numero:");
+//    Console.WriteLine("Inserisci un numero:");
 
-//sum = sum + Convert.ToInt32(Console.ReadLine());
+//    sum = sum + Convert.ToInt32(Console.ReadLine());
 //}
 
 //Console.WriteLine("La somma é: " + sum);
@@ -69,11 +84,11 @@ Console.WriteLine("Hello, Dream Theater!");
 // Calcola la somma e la media dei numeri da 2 a 10
 //int mediumNumb = 0;
 //int sum = 0;
-//for(int i = 2; i < 10; i++)
+//for (int i = 2; i < 11; i++)
 //{
-//sum = sum + Convert.ToInt32(i);
-//Console.WriteLine(sum);
-//mediumNumb++;
+//    sum = sum + Convert.ToInt32(i);
+//    Console.WriteLine(sum);
+//    mediumNumb++;
 //}
 
 //Console.WriteLine("La somma dei numeri é " + sum);
@@ -123,12 +138,8 @@ Console.WriteLine("Hello, Dream Theater!");
 //        present = true;
 //        break;
 //    }
-//    else
-//    {
-//        present = false;
-//    }
 
-//} 
+//}
 
 //if (!present)
 //{
@@ -137,7 +148,61 @@ Console.WriteLine("Hello, Dream Theater!");
 #endregion Snack 6
 
 #region Snack 7 
+// Crea un array vuoto.
+// Chiedi 6 volte all'utente di inserire un numero: se il numero é dispari inseriscilo nell'array.
 
+//int[] numbers = new int[6];
+//int k = 0;
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    Console.WriteLine("Insert a number: ");
 
+//    int userNumber = Convert.ToInt32(Console.ReadLine());
 
+//    if (userNumber % 2 == 0)
+//    {ole.WriteLine(numbers);
+//        //Console.WriteLine("É pari!");
+//    }
+//    else
+//    {
+//        //Console.WriteLine("É dispari!");
+//        numbers[k] = userNumber;
+//        k++;
+//    }
+//}
+
+////Cons
+
+//Console.WriteLine();
+//Console.WriteLine("Array");
+
+//foreach (var item in numbers)
+//{
+//    if (item != 0)
+//    {
+
+//        Console.WriteLine(item);
+
+//    }
+//}
+
+//// ALTERNATIVA DI STAMPA
+//for( int i = 0; i < numbers.Length; i++)
+//{
+
+//        if(numbers[i] == 0)
+//        {
+//            break;
+//        }
+//        else
+//        {
+//            Console.Write(numbers[i] + " ");
+//        }
+
+//}
 #endregion Snack 7
+
+#region Snack 8
+
+
+#endregion Snack 8
