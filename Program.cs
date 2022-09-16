@@ -67,38 +67,77 @@ Console.WriteLine("Hello, Dream Theater!");
 
 #region Snack 4
 // Calcola la somma e la media dei numeri da 2 a 10
-int mediumNumb = 0;
-int sum = 0;
-for(int i = 2; i < 10; i++)
-{
-sum = sum + Convert.ToInt32(i);
-Console.WriteLine(sum);
-mediumNumb++;
-}
+//int mediumNumb = 0;
+//int sum = 0;
+//for(int i = 2; i < 10; i++)
+//{
+//sum = sum + Convert.ToInt32(i);
+//Console.WriteLine(sum);
+//mediumNumb++;
+//}
 
-Console.WriteLine("La somma dei numeri é " + sum);
+//Console.WriteLine("La somma dei numeri é " + sum);
 
-float medium = (float)sum / mediumNumb;
+//float medium = (float)sum / mediumNumb;
 
-Console.WriteLine("La media dei numeri é: " + medium);
+//Console.WriteLine("La media dei numeri é: " + medium);
 
 
 
 #endregion Snack 4
 
 #region Snack 5
+// Il software chiede di inserire un numero. Se il numero inserito é pari, stampa il numero, se é dispari, stampa il numero successivo
+//Console.WriteLine("Inserisci un numero: ");
 
-Console.WriteLine("Inserisci un numero: ");
+//int userValue = Convert.ToInt16(Console.ReadLine()); 
 
-int userValue = Convert.ToInt16(Console.ReadLine()); 
-
-if(userValue % 2 == 0)
-{
-    Console.WriteLine("Il numero é pari: " + userValue);
-}
-else
-{
-    Console.WriteLine("Il numero é dispari: " + (userValue + 1));
-}
+//if(userValue % 2 == 0)
+//{
+//   Console.WriteLine("Il numero é pari: " + userValue);
+//}
+//else
+//{
+//   Console.WriteLine("Il numero é dispari: " + (userValue + 1));
+//}
 
 #endregion Snack 5
+
+#region Snack 6
+// In un array sono contenuti gli invitati alla festa del grande gatsby. Chiedi all'utente il suo nome e digli se puó partecipare alla festa o no.
+
+//string[] guests = { "Manuel", "Silvia", "Sebastiano", "Luca", "Stefano", "Paolo", "Davide", "Gabriele" };
+
+//Console.WriteLine("Inserisci il tuo nome per vedere se sei nella lista");
+
+//string userName = Console.ReadLine();
+
+
+//bool present = false;
+
+//for (int i = 0; i < guests.Length; i++)
+//{
+//    if (guests[i].ToLower() == userName.ToLower())
+//    {
+//        Console.WriteLine("Sei nella lista! Goditi la festa! :D");
+//        present = true;
+//        break;
+//    }
+//    else
+//    {
+//        present = false;
+//    }
+
+//} 
+
+//if (!present)
+//{
+//    Console.WriteLine("Non sei presente nella lista!");
+//}
+#endregion Snack 6
+
+#region Snack 7 
+
+
+
+#endregion Snack 7
