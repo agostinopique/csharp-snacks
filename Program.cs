@@ -67,20 +67,20 @@ Console.WriteLine("Hello, Dream Theater!");
 
 #region Snack 4
 // Calcola la somma e la media dei numeri da 2 a 10
-//int mediumNumb = 0;
-//int sum = 0;
-//for(int i = 2; i < 10; i++)
-//{
-//sum = sum + Convert.ToInt32(i);
-//Console.WriteLine(sum);
-//mediumNumb++;
-//}
+int mediumNumb = 0;
+int sum = 0;
+for(int i = 2; i < 10; i++)
+{
+sum = sum + Convert.ToInt32(i);
+Console.WriteLine(sum);
+mediumNumb++;
+}
 
-//Console.WriteLine("La somma dei numeri é " + sum);
+Console.WriteLine("La somma dei numeri é " + sum);
 
-//float medium = sum / mediumNumb;
+float medium = (float)sum / mediumNumb;
 
-//Console.WriteLine("La media dei numeri é: " + medium);
+Console.WriteLine("La media dei numeri é: " + medium);
 
 
 
